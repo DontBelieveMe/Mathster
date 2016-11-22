@@ -2,7 +2,6 @@
 #include <math.h>
 #include <time.h>
 
-#define SM_PI (3.1415926535897932384626433832)
 
 double factorial(double x) {
 	return x == 0 ? 1 : x * factorial(x - 1);
